@@ -1,6 +1,9 @@
-def exists_word(word, instance):
-    """Aqui irá sua implementação"""
+from ting_file_management.queue import Queue
 
 
-def search_by_word(word, instance):
-    """Aqui irá sua implementação"""
+def exists_word(word, instance: Queue):
+    return []
+
+
+def search_by_word(word, instance: Queue):
+    return []
