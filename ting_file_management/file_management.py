@@ -8,8 +8,7 @@ def txt_importer(path_file):
                 return f.read().split("\n")
 
         except FileNotFoundError:
-            sys.stderr.write("Arquivo {path_file} não encontrado\n".format(
-                path_file=path_file))
+            sys.stderr.write(f"Arquivo {path_file} não encontrado\n")
 
     else:
         sys.stderr.write("Formato inválido")
